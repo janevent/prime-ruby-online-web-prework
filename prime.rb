@@ -2,6 +2,7 @@ def prime?(int)
   if int <= 1
    false
   end
+  i = (2..int-1)
   if int % (2..int-1) == 0 
     false
   else

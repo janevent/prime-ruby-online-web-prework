@@ -4,7 +4,8 @@ def prime?(int)
   end
   if int % (2..int-1) == 0 
     false
-  end
+  else
   #Math.sqrt(int).floor.downto(2).each {|i| return false if int % i ##== 0}
-  true
+    true
+  end
 end

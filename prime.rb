@@ -3,6 +3,7 @@ def prime?(int)
    false
   end
   ar = (2..int-1).to_a
+  ar.each do |i|
   if int % i == 0 
     false
   else

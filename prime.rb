@@ -1,13 +1,12 @@
 def prime?(int)
   if int <= 1
-   false
+   return false
   end
  numbers = 2..int-1
   for i in numbers
     if int % i == 0 
-      false
-    else
-      true
+      return false
     end
   end
+  true
 end

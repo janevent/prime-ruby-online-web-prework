@@ -2,7 +2,7 @@ def prime?(int)
   if int <= 1
    false
   end
-  (2..int-1).to_a
+  ar = (2..int-1).to_a
   if int % i == 0 
     false
   else

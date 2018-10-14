@@ -2,9 +2,9 @@ def prime?(int)
   if int <= 1
    false
   end
-  i = int-1
  # ar = (2..int-1).to_a
-  for counter in 2..i do
+ numbers = 2..int-1
+  for i in numbers
     if int % counter == 0 
       false
     else

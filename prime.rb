@@ -4,10 +4,11 @@ def prime?(int)
   end
   ar = (2..int-1).to_a
   ar.each do |i|
-  if int % i == 0 
-    false
-  else
+    if int % i == 0 
+      false
+    else
   #Math.sqrt(int).floor.downto(2).each {|i| return false if int % i ##== 0}
-    true
+      true
+    end
   end
 end
